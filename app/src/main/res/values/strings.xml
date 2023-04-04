@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">AU22_flashcard</string>
+    <string name="start_dictionary">Starta ordboken</string>
+    <string name="title_dictionary">Ordbok</string>
+    <string name="title_word_id">Word id</string>
+    <string name="title_word_eng">English</string>
+    <string name="title_word_swe">Svenska</string>
+    <string name="title_txt04">txt04</string>
+    <string name="title_txt001" />
+    <string name="add_word">Add word</string>
+    <string name="add_word_request">Add word?</string>
+    <string name="word">Word</string>
+    <string name="add_update_word">Add/Update Word</string>
+    <string name="english">English</string>
+    <string name="swedish">Svenska</string>
+    <string name="lorem_ipsum">Lorem ipsum</string>
+    <string name="o">0</string>
+    <string name="delete">Delete</string>
 </resources>

@@ -1,6 +1,8 @@
 package com.example.au22_flashcard
 
-class WordList() {
+import java.util.*
+
+class WordListMain {
     private val wordList = mutableListOf<Word>()
     private val usedWords = mutableListOf<Word>()
 
@@ -9,12 +11,12 @@ class WordList() {
     }
 
     fun initializeWords() {
-        val word = Word(0,"Hello", "Hej")
+        val word = Word(0, Date(), "Hello", "Hej")
         wordList.add(word)
-        wordList.add(Word(0,"Good bye", "Hej då"))
-        wordList.add(Word(0,"Thank you", "Tack"))
-        wordList.add(Word(0,"Welcome", "Välkommen"))
-        wordList.add(Word(0,"Computer", "Dator"))
+        wordList.add(Word(0,Date(),"Good bye", "Hej då"))
+        wordList.add(Word(0,Date(),"Thank you", "Tack"))
+        wordList.add(Word(0,Date(),"Welcome", "Välkommen"))
+        wordList.add(Word(0,Date(),"Computer", "Dator"))
 
     }
 

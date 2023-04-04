@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="24dp">
+    <item
+        android:id="@+id/add_word_menu_item"
+        android:icon="@drawable/ic_add"
+        app:showAsAction="always"
+        android:title="@string/add_word"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/ripple_oval"
+        android:contentDescription="@string/add_word"
+        android:elevation="8dp"
+        android:src="@drawable/ic_add" />
+</menu>
